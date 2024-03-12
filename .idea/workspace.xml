@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3239c8c2-68b1-4ec0-8715-eae55c36c8ca" name="Changes" comment="Rectangle pattern Commit">
-      <change afterPath="$PROJECT_DIR$/src/com/vivek/patterns/TrianglePattern.java" afterDir="false" />
+    <list default="true" id="3239c8c2-68b1-4ec0-8715-eae55c36c8ca" name="Changes" comment="Triangle pattern Commit">
+      <change afterPath="$PROJECT_DIR$/src/com/vivek/patterns/CountDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vivek/patterns/Gcd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vivek/patterns/PelindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vivek/patterns/TrianglePattern2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vivek/patterns/TrianglePattern3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vivek/patterns/TrianglePattern4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +53,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TrianglePattern">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="dsalgo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectanglePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vivek.patterns.RectanglePattern" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vivek.patterns" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Gcd">
+    <configuration name="CountDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vivek.patterns.CountDigit" />
       <module name="dsalgo" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +72,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrianglePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vivek.patterns.TrianglePattern" />
+    <configuration name="Gcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vivek.patterns.Gcd" />
+      <module name="dsalgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vivek.patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PelindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vivek.patterns.PelindromeNumber" />
+      <module name="dsalgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vivek.patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vivek.patterns.ReverseNumber" />
+      <module name="dsalgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vivek.patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrianglePattern4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vivek.patterns.TrianglePattern4" />
       <module name="dsalgo" />
       <extension name="coverage">
         <pattern>
@@ -84,9 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TrianglePattern" />
-        <item itemvalue="Application.RectanglePattern" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Gcd" />
+        <item itemvalue="Application.PelindromeNumber" />
+        <item itemvalue="Application.ReverseNumber" />
+        <item itemvalue="Application.CountDigit" />
+        <item itemvalue="Application.TrianglePattern4" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +142,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709677356288</updated>
-      <workItem from="1709677357365" duration="2304000" />
+      <workItem from="1709677357365" duration="2373000" />
+      <workItem from="1709847407390" duration="1391000" />
+      <workItem from="1709932834538" duration="2282000" />
+      <workItem from="1710110430752" duration="885000" />
+      <workItem from="1710191754024" duration="1189000" />
+      <workItem from="1710276475127" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -116,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709678884312</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Triangle pattern Commit">
+      <option name="closed" value="true" />
+      <created>1709679716472</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709679716473</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Rectangle pattern Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rectangle pattern Commit" />
+    <MESSAGE value="Triangle pattern Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Triangle pattern Commit" />
   </component>
 </project>
